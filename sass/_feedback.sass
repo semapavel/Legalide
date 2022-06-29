@@ -1,0 +1,133 @@
+.feedback 
+
+.feedback-header 
+	background: #FAFAFA
+
+.pos__feedback
+	position: relative
+
+.feedback__head 
+	padding-top: 55px
+	padding-bottom: 157px
+
+.feedback__head-row 
+	display: flex
+	align-items: center
+	justify-content: space-between
+.feedback__head-logo 
+	&:nth-child(1)
+		width: 103px
+		height: 34px
+		background: url(../icon/feedback/1.svg) no-repeat
+	&:nth-child(2)
+		width: 83px
+		height: 59px
+		background: url(../icon/feedback/2.svg) no-repeat
+	&:nth-child(3)
+		width: 102px
+		height: 75px
+		background: url(../icon/feedback/3.svg) no-repeat
+	&:nth-child(4)
+		width: 103px
+		height: 42px
+		background: url(../icon/feedback/4.svg) no-repeat
+	&:nth-child(5)
+		width: 104px
+		height: 62px
+		background: url(../icon/feedback/5.svg) no-repeat
+	&:nth-child(6)
+		width: 76px
+		height: 72px
+		background: url(../icon/feedback/6.svg) no-repeat
+		
+
+.feedback__sub
+	position: absolute
+	left: 11%
+	bottom: -20%
+	padding: 30px 50px
+	background: linear-gradient(270deg, #295C7A -1.04%, #0072B5 100%)
+	border-radius: 2px
+
+.feedback__sub-row 
+	display: flex
+	justify-content: space-between
+
+.feedback__sub-title 
+	max-width: 253px
+	h3
+		color: #ffffff
+
+.feedback__sub-input 
+	align-self: center
+	display: flex
+	background: #F9F9F9
+	border: 1px solid #E6E6E6
+	border-radius: 5px
+
+.feedback__sub-email 
+	padding:15px 20px
+	input
+		width: 313px
+		background: #F9F9F9
+
+.feedback__sub-btn 
+	background: #D0A144
+	border-radius: 0px 5px 5px 0px
+	button
+		border-radius: 0px 5px 5px 0px
+		padding: 15px 20px
+		background: #D0A144
+		color: #ffffff
+.feedback-footer 
+	padding: 38px 0
+	background: #252B42
+
+@media (max-width: 500px)
+	.feedback__head-row
+		display: block 
+
+	.feedback__head-logo
+		margin: 0 auto
+		margin-bottom:60px
+		&:nth-child(1)
+			width: 149px
+			height: 50px
+			background: url(../icon/feedback/1.svg) 0 0/149px 50px no-repeat
+		&:nth-child(2)
+			width: 139px
+			height: 99px
+			background: url(../icon/feedback/2.svg)  0 0/139px 99px no-repeat
+		&:nth-child(3)
+			width: 149px
+			height: 109px
+			background: url(../icon/feedback/3.svg)  0 0/149px 109px no-repeat
+		&:nth-child(4)
+			width: 149px
+			height: 60px
+			background: url(../icon/feedback/4.svg)  0 0/149px 60px no-repeat
+		&:nth-child(5)
+			width: 153px
+			height: 92px
+			background: url(../icon/feedback/5.svg)  0 0/153px 92px no-repeat
+		&:nth-child(6)
+			margin-bottom: 200px
+			width: 149px
+			height: 142px
+			background: url(../icon/feedback/6.svg)  0 0/149px 142px no-repeat
+
+	.feedback__sub 
+		width: 500px
+		left: -62px
+		bottom: 0px
+	.feedback__sub-row
+		display: block 
+	.feedback__sub-title
+		margin: 0 auto 
+		text-align: center
+		margin-bottom: 30px 
+	.feedback__sub-email
+		input
+			width: 253px
+	.feedback-footer
+		display: none

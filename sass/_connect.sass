@@ -1,0 +1,87 @@
+.connect 
+	padding: 80px 0 155px 0
+	background: #F3F3F3
+
+.connect__title 
+	text-align: center
+	margin-bottom: 10px
+
+.connect__text
+	margin: 0 auto
+	text-align: center
+	max-width: 468px 
+	margin-bottom: 80px
+
+.connect__row 
+	display: flex
+	text-align: center
+	justify-content: space-between
+
+.connect__column
+	flex: 1 1 33.3%
+	display: flex
+	flex-direction: column 
+	background: #ffffff
+	padding:50px 0
+	align-self: center
+	&:nth-child(1)
+		.connect__column-icon
+			width: 72px
+			height: 72px
+			background: url(../icon/connect/1.svg)	no-repeat	
+	&:nth-child(2)
+		padding:80px 0
+		background: #252B42
+		.connect__column-icon
+			width: 60px
+			height: 71px
+			background: url(../icon/connect/3.svg)	no-repeat
+		.connect__column-mail
+			h6
+				color: #ffffff
+		.connect__column-title
+			color: #ffffff
+	&:nth-child(3)
+		.connect__column-icon
+			width: 70px
+			height: 72px
+			background: url(../icon/connect/2.svg)	no-repeat
+		
+
+.connect__column-icon 
+	margin: 0 auto
+	margin-bottom: 15px
+
+.connect__column-mail 
+	h6
+		color: #252B42
+
+.connect__column-title 
+	margin: 15px 0 25px 0
+	color: #252B42
+
+.connect__column-btn
+	padding: 10px 20px 
+	border: 1px solid #D0A144
+	border-radius: 5px
+	max-width: 154px
+	margin: 0 auto
+	h6
+		color: #D0A144
+	&:hover
+		background: #D0A144
+		h6
+			color: #ffffff
+		
+@media (max-width: 500px)
+	.connect 
+		padding: 80px 0 155px 0
+
+	.connect__text 
+		max-width: 264px
+	
+	.connect__row
+		display: block
+
+	.connect__column 
+		margin-bottom: 30px

@@ -1,0 +1,80 @@
+.who 
+	padding: 100px 0 140px 0
+.who__title 
+	text-align: center
+	margin-bottom: 15px
+
+.who__text 
+	max-width: 468px
+	margin: 0 auto
+	text-align: center
+	margin-bottom: 100px
+
+.who__row 
+	display: flex
+
+.who__column
+	flex: 0 1 50%
+	&:first-child
+		margin-right: 60px
+	&:last-child
+		margin-left: 60px	
+
+.who__column-video 
+	position: relative
+
+.who__column-btn
+	position: absolute
+	background: url(../icon/who/1.svg) 40px 34px no-repeat #295C7A
+	width: 100px
+	height: 100px 
+	top: 171px
+	left: 248.5px
+	border-radius: 73.6px
+	&:hover
+		opacity: 0.8
+
+.who__column-title 
+	margin-bottom: 10px
+
+.who__column-text 
+	max-width: 306px
+	margin-bottom: 50px
+
+.who__column-info
+	padding-left: 40px
+	h5
+		margin-bottom: 5px
+	&:nth-child(3)
+		background: url(../icon/who/2.svg) no-repeat
+		margin-bottom: 30px
+	&:nth-child(4)
+		background: url(../icon/who/3.svg) no-repeat
+
+@media (max-width: 500px)
+	.who__title
+		text-align: center
+	.who__text
+		max-width: 206px
+
+	.who__row
+		display: block
+	.who__column
+		&:first-child
+			margin-right: 0px
+			margin-bottom: 70px
+		&:last-child
+			margin-left: 0px	
+	.who__column-video
+		video
+			width: 100%
+		
+	.who__column-btn
+		background: url(../icon/who/1.svg) 32px 26px no-repeat #295C7A
+		width: 80px
+		height: 80px 
+		top: 99px
+		left: 148px
+		
+	.who__column-info
+		max-width: 313px

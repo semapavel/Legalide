@@ -1,0 +1,82 @@
+.footer
+	padding: 50px 0 40px 0
+	background: linear-gradient(270deg, #295C7A -1.04%, #0072B5 100%)
+
+.footer__row
+	display: flex
+	justify-content: space-between
+
+.footer__column
+	margin: 0 10px
+	&:first-child
+		margin-left: 0
+	&:last-child
+		margin-right: 0
+		.footer__column-link
+			padding-left: 30px
+			h6
+				color: #ffffff
+		a
+			.link-tel
+				background: url(../icon/footer/1.svg) no-repeat
+			.link-adres
+				background: url(../icon/footer/2.svg) no-repeat
+			.link-email
+				background: url(../icon/footer/3.svg) no-repeat
+
+.footer__column-title
+	margin-bottom: 20px
+	color: #ffffff
+
+.footer__column-link
+	max-width: 220px
+	max-height: 30px
+	overflow: hidden
+	text-align: left
+	margin-bottom: 10px
+
+.footer__bottom
+	background: #FAFAFA
+	padding: 25px 0
+
+.footer__bottom-row
+	display: flex
+	justify-content: space-between
+
+.footer__bottom-column
+	display: flex
+	justify-content: space-between
+	margin: 0 10px
+	&:first-child
+		margin-left: 0
+	&:last-child
+		margin-right: 0
+.footer__bottom-link
+	align-self: center
+	margin: 0 10px
+	&:first-child
+		margin-left: 0
+	&:last-child
+		margin-right: 0
+
+@media (max-width: 500px)
+	.footer__row
+		margin: 0 auto
+		max-width: 236px
+		display: block
+
+	.footer__column
+		margin: 0 0 30px 0
+
+	.footer__bottom
+	.footer__bottom-row
+		margin: 0 auto
+		max-width: 236px
+		display: block
+	.footer__bottom-column
+		margin: 0
+		justify-content: flex-start
+		&:first-child
+			margin-bottom: 50px
+	.footer__bottom-link
+	.footer__bottom-icon
